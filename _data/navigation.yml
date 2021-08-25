@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Introduce"
-    url: /about/
   - title: "Archive"
     url: /year-archive/
   - title: "Tag"
