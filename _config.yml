@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Sung Hyouk Choi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/IMG_3884.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**공부한 것들의 기록**<br>매일 공부하고 있음<br>I am studying Bioenginnering <br>in College of Medicine<br>, Seoul National University."
   location         : "Seoul, Korea"
   email            : "sakebite@snu.ac.kr"
