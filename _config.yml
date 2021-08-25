@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/sunghyouk/sunghyouk.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "BLOG" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "BLOG: I Want to collect all my knowledge on One Place" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -103,9 +103,9 @@ analytics:
 author:
   name             : "Sung Hyouk Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "**공부한 것들의 기록**<br>매일 공부하고 있음<br>I am studying Bioenginnering <br>in College of Medicine<br>, Seoul National University."
+  location         : "Seoul, Korea"
+  email            : "sakebite@snu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
