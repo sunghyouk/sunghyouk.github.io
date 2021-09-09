@@ -53,11 +53,11 @@
                 {% endfor %}
             </ul>
       </li>
-      <span class="nav__sub-title">Just chat</span>
+      <span class="nav__sub-title">그 외</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Just_chat" %}
-                        <li><a href="/categories/Just_chat" class="">Just chat ({{category[1].size}})</a></li>
+                    {% if category[0] == "justchat" %}
+                        <li><a href="/categories/justchat" class="">Just chat ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
