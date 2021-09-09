@@ -57,7 +57,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Just_chat" %}
-                        <li><a href="/categories/MATH" class="">Just chat ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Just_chat" class="">Just chat ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
