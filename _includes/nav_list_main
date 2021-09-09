@@ -53,5 +53,14 @@
                 {% endfor %}
             </ul>
       </li>
+      <span class="nav__sub-title">Just_chat</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Just_chat" %}
+                        <li><a href="/categories/MATH" class="">Just chat ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
   </ul>
 </nav>
