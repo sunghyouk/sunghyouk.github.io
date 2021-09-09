@@ -5,7 +5,6 @@ excerpt: "about.md"
 last_modified_at: 2021-08-27
 toc: true
 author_profile: true
-tags: [About]
 ---
 
 **Sung Hyouk Choi MD**<br>
