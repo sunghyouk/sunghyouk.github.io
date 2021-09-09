@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "BLOG: I Want to collect all my knowledge on One Place"
 title_separator          : "-"
-subtitle                 : "v 1.0" # site tagline that appears below site title in masthead
+subtitle                 : "v 1.0.1" # site tagline that appears below site title in masthead
 name                     : "Sung Hyouk Choi"
 description              : "Accumulating day by day"
 url                      : "https://sunghyouk.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
