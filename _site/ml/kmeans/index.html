@@ -9,30 +9,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Page Not Found - BLOG: I Want to collect all my knowledge on One Place</title>
-<meta name="description" content="Page not found. Your pixels are in another canvas.">
+<!-- begin _includes/seo.html --><title>K-means algorithm의 간단한 원리 - BLOG: I Want to collect all my knowledge on One Place</title>
+<meta name="description" content="K-means algorithm">
 
 
   <meta name="author" content="Sung Hyouk Choi">
   
+  <meta property="article:author" content="Sung Hyouk Choi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="BLOG: I Want to collect all my knowledge on One Place">
-<meta property="og:title" content="Page Not Found">
-<meta property="og:url" content="http://localhost:4000/404.html">
+<meta property="og:title" content="K-means algorithm의 간단한 원리">
+<meta property="og:url" content="http://localhost:4000/ml/kmeans/">
 
 
-  <meta property="og:description" content="Page not found. Your pixels are in another canvas.">
-
-
-
+  <meta property="og:description" content="K-means algorithm">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2021-09-17T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2021-09-17T00:00:00+09:00">
 
 
 
@@ -41,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/404.html">
+<link rel="canonical" href="http://localhost:4000/ml/kmeans/">
 
 
 
@@ -363,17 +369,35 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Page Not Found">
-    <meta itemprop="description" content="Page not found. Your pixels are in another canvas.">
-    
-    
+    <meta itemprop="headline" content="K-means algorithm의 간단한 원리">
+    <meta itemprop="description" content="K-means algorithm">
+    <meta itemprop="datePublished" content="2021-09-17T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2021-09-17T00:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Page Not Found
+          <h1 id="page-title" class="page__title" itemprop="headline">K-means algorithm의 간단한 원리
 </h1>
           
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
 
 
         </header>
@@ -381,7 +405,31 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Sorry, but the page you were trying to view does not exist.</p>
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu"><li><a href="#k-means-군집화-알고리즘의-동작-과정-알아보기">K-Means 군집화 알고리즘의 동작 과정 알아보기</a><ul><li><a href="#1단계-표본-공간에-k개의-중심을-무작위로-생성하기">[1단계] 표본 공간에 K개의 중심을 무작위로 생성하기</a></li><li><a href="#2단계-각-표본을-가장-가까운-중심에-할당하기">[2단계] 각 표본을 가장 가까운 중심에 할당하기</a></li><li><a href="#3단계-각-군집의-중심을-새롭게-계산하기">[3단계] 각 군집의 중심을 새롭게 계산하기</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>출처: 수학과 함께하는 AI 기초</p>
+
+<h1 id="k-means-군집화-알고리즘의-동작-과정-알아보기">K-Means 군집화 알고리즘의 동작 과정 알아보기</h1>
+
+<h2 id="1단계-표본-공간에-k개의-중심을-무작위로-생성하기">[1단계] 표본 공간에 K개의 중심을 무작위로 생성하기</h2>
+
+<p><code class="language-plaintext highlighter-rouge">군집</code> (비슷한 특성을 지닌 데이터들의 집합)을 만들기 위해서 중심 (centroid)이 필요한데, 이유는 중심을 기준으로 가까운 거리의 점을 같은 군집에 포함할지 말지를 결정하기 때문<br />
+중심은 무작위로 생성하도록 한다.</p>
+
+<h2 id="2단계-각-표본을-가장-가까운-중심에-할당하기">[2단계] 각 표본을 가장 가까운 중심에 할당하기</h2>
+
+<p>개별 데이터는 가장 가깝게 있는 군집의 중심이 소속된 군집 (cluster)으로 할당한다.</p>
+
+<h2 id="3단계-각-군집의-중심을-새롭게-계산하기">[3단계] 각 군집의 중심을 새롭게 계산하기</h2>
+
+<p>새로운 데이터가 추가되면 군집에 속한 데이터들의 평균을 바탕으로 군집의 중심좌표가 다시 계산된다.<br />
+군집의 중심과 해당 군집에 속한 데이터 간의 거리를 계산한 결과에 변화가 없을 때까지 개별 데이터를 군집에 할당하고, 군집의 중심을 다시 계산하는 과정을 반복한다.</p>
 
         
       </section>
@@ -389,21 +437,164 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#algorithm" class="page__taxonomy-item" rel="tag">algorithm</a><span class="sep">, </span>
+    
+      <a href="/tags/#ml" class="page__taxonomy-item" rel="tag">ML</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ml" class="page__taxonomy-item" rel="tag">ML</a>
+    
+    </span>
+  </p>
 
 
         
 
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-09-17">September 17, 2021</time></p>
+
 
       </footer>
 
-      
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=K-means+algorithm%EC%9D%98+%EA%B0%84%EB%8B%A8%ED%95%9C+%EC%9B%90%EB%A6%AC%20http%3A%2F%2Flocalhost%3A4000%2Fml%2Fkmeans%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fml%2Fkmeans%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fml%2Fkmeans%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
 
       
+  <nav class="pagination">
+    
+      <a href="/math/chapter_1/" class="pagination--pager" title="Mathematics for machine learning - Chapter 1: Introduction and motivation
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
     </div>
 
     
   </article>
 
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">참고</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/math/chapter_1/" rel="permalink">Mathematics for machine learning - Chapter 1: Introduction and motivation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Introduction
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/justchat/welcome/" rel="permalink">Welcome to my repository
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Welcome
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
   
   
 </div>
