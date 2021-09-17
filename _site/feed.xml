@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-17T09:33:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BLOG: I Want to collect all my knowledge on One Place</title><subtitle>Accumulating day by day</subtitle><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><entry><title type="html">Mathematics for machine learning - Chapter 1: Introduction and motivation</title><link href="http://localhost:4000/math/chapter_1/" rel="alternate" type="text/html" title="Mathematics for machine learning - Chapter 1: Introduction and motivation" /><published>2021-09-16T00:00:00+09:00</published><updated>2021-09-16T00:00:00+09:00</updated><id>http://localhost:4000/math/chapter_1</id><content type="html" xml:base="http://localhost:4000/math/chapter_1/">&lt;h1 id=&quot;머신러닝의-수학적-기초를-배운다는-것은&quot;&gt;머신러닝의 수학적 기초를 배운다는 것은&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-17T09:48:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BLOG: I Want to collect all my knowledge on One Place</title><subtitle>Accumulating day by day</subtitle><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><entry><title type="html">Mathematics for machine learning - Chapter 1: Introduction and motivation</title><link href="http://localhost:4000/math/chapter_1/" rel="alternate" type="text/html" title="Mathematics for machine learning - Chapter 1: Introduction and motivation" /><published>2021-09-16T00:00:00+09:00</published><updated>2021-09-17T00:00:00+09:00</updated><id>http://localhost:4000/math/chapter_1</id><content type="html" xml:base="http://localhost:4000/math/chapter_1/">&lt;p&gt;&lt;strong&gt;머신러닝의 수학적 기초를 배운다&lt;/strong&gt;는 것은&lt;/p&gt;
 
 &lt;p&gt;새 머신러닝 해법을 창조하고, 기존 접근법을 이해하고 오류를 해결하며, 방법론의 가정과 제약을 배우는 것을 촉진한다. - 그래서 중요하다.&lt;/p&gt;
 
@@ -22,24 +22,24 @@
 
 &lt;h3 id=&quot;part-i-is-about-mathematics&quot;&gt;Part I is about Mathematics&lt;/h3&gt;
 
-&lt;p&gt;chapter 2: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linear algebra&lt;/code&gt;
-chapter 3: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;analytic geometry&lt;/code&gt;
-chapter 4: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matrix decomposition&lt;/code&gt;
-chapter 5: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vector calculus&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization&lt;/code&gt;
+&lt;p&gt;chapter 2: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linear algebra&lt;/code&gt;&lt;br /&gt;
+chapter 3: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;analytic geometry&lt;/code&gt;&lt;br /&gt;
+chapter 4: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matrix decomposition&lt;/code&gt;&lt;br /&gt;
+chapter 5: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vector calculus&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization&lt;/code&gt;&lt;br /&gt;
 chapter 6: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;probabilistic theory&lt;/code&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;part-ii-is-about-machine-learning&quot;&gt;Part II is about Machine learning&lt;/h3&gt;
 
-&lt;p&gt;chapter 8: data, model, parameter estimation (learning)
-chapter 9: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linear regression&lt;/code&gt;
-chapter 10: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dimensionality reduction&lt;/code&gt; (principal component analysis)
-chapter 11: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;density estimation&lt;/code&gt; (Gaussian mixture model)
+&lt;p&gt;chapter 8: data, model, parameter estimation (learning)&lt;br /&gt;
+chapter 9: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linear regression&lt;/code&gt;&lt;br /&gt;
+chapter 10: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dimensionality reduction&lt;/code&gt; (principal component analysis)&lt;br /&gt;
+chapter 11: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;density estimation&lt;/code&gt; (Gaussian mixture model)&lt;br /&gt;
 chapter 12: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;classification&lt;/code&gt; (Support vector machine)&lt;/p&gt;
 
 &lt;h2 id=&quot;13-exercises-and-feedback&quot;&gt;1.3 Exercises and feedback&lt;/h2&gt;
 
-&lt;p&gt;Part I: 손과 펜으로 풀만한 것. 
-Part II: jupyter notebook을 이용한 programming tutorial. 
+&lt;p&gt;Part I: 손과 펜으로 풀만한 것.&lt;br /&gt;
+Part II: jupyter notebook을 이용한 programming tutorial.&lt;br /&gt;
 이 책의 링크 [[https://mml-book.com]]&lt;/p&gt;</content><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><category term="MATH" /><category term="mathematics" /><category term="introduction" /><category term="MML-book" /><summary type="html">Introduction</summary></entry><entry><title type="html">Welcome to my repository</title><link href="http://localhost:4000/justchat/welcome/" rel="alternate" type="text/html" title="Welcome to my repository" /><published>2021-08-25T00:00:00+09:00</published><updated>2021-09-09T00:00:00+09:00</updated><id>http://localhost:4000/justchat/welcome</id><content type="html" xml:base="http://localhost:4000/justchat/welcome/">&lt;h1 id=&quot;1st-content&quot;&gt;1st content&lt;/h1&gt;
 
 &lt;h2 id=&quot;최초작성&quot;&gt;최초작성&lt;/h2&gt;
