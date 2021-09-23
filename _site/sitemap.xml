@@ -13,8 +13,8 @@
 <lastmod>2021-09-17T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/etc/</loc>
-<lastmod>2021-09-23T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/justchat/etc/</loc>
+<lastmod>2019-09-23T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -40,6 +40,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/categories/justchat</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/repair</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

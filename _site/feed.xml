@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-23T15:11:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BLOG: I Want to collect all my knowledge on One Place</title><subtitle>Accumulating day by day</subtitle><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><entry><title type="html">Etc</title><link href="http://localhost:4000/etc/" rel="alternate" type="text/html" title="Etc" /><published>2021-09-23T00:00:00+09:00</published><updated>2021-09-23T00:00:00+09:00</updated><id>http://localhost:4000/etc</id><content type="html" xml:base="http://localhost:4000/etc/">&lt;hr /&gt;
-
-&lt;p&gt;title:  “iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)”&lt;br /&gt;
-excerpt: “Fusion drive 복구”&lt;/p&gt;
-
-&lt;p&gt;categories: justchat&lt;/p&gt;
-
-&lt;p&gt;tags: [Blog, Fusiondrive, iMac, Late2015, Fixing]&lt;/p&gt;
-
-&lt;p&gt;date: 2021-09-23&lt;br /&gt;
-last_modified_at: 2019-09-23&lt;/p&gt;
-
-&lt;p&gt;toc: true&lt;br /&gt;
-toc_sticky: true&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;참조: &lt;a href=&quot;https://support.apple.com/ko-kr/HT207584&quot;&gt;https://support.apple.com/ko-kr/HT207584&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-23T16:55:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BLOG: I Want to collect all my knowledge on One Place</title><subtitle>Accumulating day by day</subtitle><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><entry><title type="html">iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)</title><link href="http://localhost:4000/justchat/etc/" rel="alternate" type="text/html" title="iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)" /><published>2021-09-23T00:00:00+09:00</published><updated>2019-09-23T00:00:00+09:00</updated><id>http://localhost:4000/justchat/etc</id><content type="html" xml:base="http://localhost:4000/justchat/etc/">&lt;p&gt;참조: &lt;a href=&quot;https://support.apple.com/ko-kr/HT207584&quot;&gt;https://support.apple.com/ko-kr/HT207584&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;고치기-process&quot;&gt;고치기 process&lt;/h1&gt;
 
@@ -44,7 +27,7 @@ Mojave 이후 버전을 사용 중이므로&lt;/p&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Yes&lt;/code&gt; 입력&lt;/li&gt;
   &lt;li&gt;성공했다고 나오면 유틸리티 윈도우로 돌아가기&lt;/li&gt;
   &lt;li&gt;Mac OS 다시 설치 – 초기화 완료&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><summary type="html"></summary></entry><entry><title type="html">K-means algorithm의 간단한 원리</title><link href="http://localhost:4000/ml/kmeans/" rel="alternate" type="text/html" title="K-means algorithm의 간단한 원리" /><published>2021-09-17T00:00:00+09:00</published><updated>2021-09-17T00:00:00+09:00</updated><id>http://localhost:4000/ml/kmeans</id><content type="html" xml:base="http://localhost:4000/ml/kmeans/">&lt;p&gt;출처: 수학과 함께하는 AI 기초&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Sung Hyouk Choi</name><email>sakebite@snu.ac.kr</email></author><category term="justchat" /><category term="Blog" /><category term="Fusiondrive" /><category term="iMac" /><category term="Late2015" /><category term="Fixing" /><summary type="html">Fusion drive 복구</summary></entry><entry><title type="html">K-means algorithm의 간단한 원리</title><link href="http://localhost:4000/ml/kmeans/" rel="alternate" type="text/html" title="K-means algorithm의 간단한 원리" /><published>2021-09-17T00:00:00+09:00</published><updated>2021-09-17T00:00:00+09:00</updated><id>http://localhost:4000/ml/kmeans</id><content type="html" xml:base="http://localhost:4000/ml/kmeans/">&lt;p&gt;출처: 수학과 함께하는 AI 기초&lt;/p&gt;
 
 &lt;h1 id=&quot;k-means-군집화-알고리즘의-동작-과정-알아보기&quot;&gt;K-Means 군집화 알고리즘의 동작 과정 알아보기&lt;/h1&gt;
 
