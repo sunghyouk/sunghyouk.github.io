@@ -52,7 +52,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
       <span class="nav__sub-title">Blog/Computer Repair</span>
             <ul>
                 {% for category in site.categories %}
