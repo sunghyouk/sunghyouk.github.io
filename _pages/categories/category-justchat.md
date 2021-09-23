@@ -1,5 +1,5 @@
 ---
-title: "Just_chat"
+title: "Blog"
 layout: archive
 permalink: categories/justchat
 author_profile: true
