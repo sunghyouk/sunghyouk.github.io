@@ -16,4 +16,10 @@ var store = [{
         "tags": ["ML","algorithm"],
         "url": "/ml/kmeans/",
         "teaser": null
+      },{
+        "title": "Etc",
+        "excerpt":"title: “iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)” excerpt: “Fusion drive 복구” categories: justchat tags: [Blog, Fusiondrive, iMac, Late2015, Fixing] date: 2021-09-23 last_modified_at: 2019-09-23 toc: true toc_sticky: true 참조: https://support.apple.com/ko-kr/HT207584 고치기 process 1. 현상 초기화 후 Fusion Drive가 Finder에서 하나가 아닌 두 개의 드라이브로 표시되는 경우 더 이상 Fusion...","categories": [],
+        "tags": [],
+        "url": "/etc/",
+        "teaser": null
       }]

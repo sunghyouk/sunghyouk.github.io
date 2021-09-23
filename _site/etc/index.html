@@ -9,28 +9,32 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Just_chat - BLOG: I Want to collect all my knowledge on One Place</title>
-<meta name="description" content="Accumulating day by day">
+<!-- begin _includes/seo.html --><title>Etc - BLOG: I Want to collect all my knowledge on One Place</title>
+<meta name="description" content="">
 
 
   <meta name="author" content="Sung Hyouk Choi">
   
+  <meta property="article:author" content="Sung Hyouk Choi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="BLOG: I Want to collect all my knowledge on One Place">
-<meta property="og:title" content="Just_chat">
-<meta property="og:url" content="http://localhost:4000/categories/justchat">
+<meta property="og:title" content="Etc">
+<meta property="og:url" content="http://localhost:4000/etc/">
 
 
-  <meta property="og:description" content="Accumulating day by day">
-
-
-
+  <meta property="og:description" content="">
 
 
 
+
+
+
+
+  <meta property="article:published_time" content="2021-09-23T00:00:00+09:00">
 
 
 
@@ -41,7 +45,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/justchat">
+<link rel="canonical" href="http://localhost:4000/etc/">
 
 
 
@@ -99,7 +103,7 @@
 
   </head>
 
-  <body class="layout--archive">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -362,13 +366,228 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Etc">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2021-09-23T00:00:00+09:00">
     
-      <h1 id="page-title" class="page__title">Just_chat</h1>
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Etc
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        
+<hr />
+
+<p>title:  “iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)”<br />
+excerpt: “Fusion drive 복구”</p>
+
+<p>categories: justchat</p>
+
+<p>tags: [Blog, Fusiondrive, iMac, Late2015, Fixing]</p>
+
+<p>date: 2021-09-23<br />
+last_modified_at: 2019-09-23</p>
+
+<p>toc: true<br />
+toc_sticky: true</p>
+
+<hr />
+
+<p>참조: <a href="https://support.apple.com/ko-kr/HT207584">https://support.apple.com/ko-kr/HT207584</a></p>
+
+<h1 id="고치기-process">고치기 process</h1>
+
+<h1 id="1-현상">1. 현상</h1>
+
+<p>초기화 후 Fusion Drive가 Finder에서 하나가 아닌 두 개의 드라이브로 표시되는 경우 더 이상 Fusion Drive로 작동하지 않는 것임 – 현저히 느림</p>
+
+<h1 id="2-원인">2. 원인</h1>
+
+<p>초기화 하면서 소프트웨어를 사용하여 Fusion Drive를 의도적으로 별개의 볼륨으로 분할함 – 실수</p>
+
+<h1 id="3-사태-파악">3. 사태 파악</h1>
+
+<p>Apple 메뉴 &gt; 이 Mac에 관하여를 선택: 저장 공간을 보면,<br />
+두 개의 드라이브로 표시됨, 플래시 저장 장치 (24GB), 다른 하나는 SATA에 연결된 1TB</p>
+
+<h1 id="4-해결">4. 해결</h1>
+
+<p>터미널에서 다시 Fusion Drive 생성<br />
+Mojave 이후 버전을 사용 중이므로</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">command-R</code>을 눌러 복구에서 시동하기</li>
+  <li>메뉴 막대에서 유틸리티 &gt; 터미널</li>
+  <li>터미널에 <code class="language-plaintext highlighter-rouge">diskutil resetFusion</code>을 입력</li>
+  <li><code class="language-plaintext highlighter-rouge">Yes</code> 입력</li>
+  <li>성공했다고 나오면 유틸리티 윈도우로 돌아가기</li>
+  <li>Mac OS 다시 설치 – 초기화 완료</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-09-23T00:00:00+09:00">September 23, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Etc%20http%3A%2F%2Flocalhost%3A4000%2Fetc%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fetc%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fetc%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ml/kmeans/" class="pagination--pager" title="K-means algorithm의 간단한 원리
+">이전</a>
     
     
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">참고</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ml/kmeans/" rel="permalink">K-means algorithm의 간단한 원리
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">K-means algorithm
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/math/chapter_1/" rel="permalink">Mathematics for machine learning - Chapter 1: Introduction and motivation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Introduction
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
@@ -402,9 +621,13 @@
   </article>
 </div>
 
-
-  </div>
+        
+      </div>
+    </div>
+  
+  
 </div>
+
     </div>
 
     
