@@ -56,7 +56,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "SToM" %}
-                        <li><a href="/categories/standard" class="">SToM ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Standard" class="">SToM ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -64,21 +64,21 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Blog" %}
-                        <li><a href="/categories/blog" class="">Blog ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Blog" class="">Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Repair" %}
-                        <li><a href="/categories/repair" class="">Computer Repair Tips({{category[1].size}})</a></li>
+                        <li><a href="/categories/Repair" class="">Computer Repair Tips({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Coding" %}
-                        <li><a href="/categories/coding" class="">Coding Tips ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Coding" class="">Coding Tips ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

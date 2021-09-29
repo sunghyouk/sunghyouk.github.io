@@ -1,11 +1,11 @@
 ---
-title: "Computer Repair"
+title: "Computer Repair Tips"
 layout: archive
-permalink: categories/repair
+permalink: categories/Repair
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.repair %}
+{% assign posts = site.categories.Repair %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
