@@ -2,7 +2,7 @@
 title:  "Overview of SNOMED CT"
 excerpt: SNOMED CT 조감
 
-categories: Standard
+categories: SToM
 
 tags: [SNOMED]
 
