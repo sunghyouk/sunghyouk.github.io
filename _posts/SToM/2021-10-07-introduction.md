@@ -70,4 +70,4 @@ concept은 개념과 생각의 단위를 표현하며, object와 designation 사
 concept system은 의미론적 문맥에서 모르는 concept의 배치를 허용하여 다른 concept과 관계에서 특정 concept의 중요도나 강도의 개념을 이끌어 낸다.  
 그러므로 concept system이 더 어울리고 강건하다 할 수 있다.  
 
-가장 흔한 system은 `generic` (**is a**) relationship 혹은 `partitive` relationship (**part of**)에 기반한다.  
+가장 흔한 system은 `generic` (**is a**) relationship 혹은 `partitive` (**part of**) relationship에 기반한다.  
