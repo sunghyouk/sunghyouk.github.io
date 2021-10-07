@@ -1,6 +1,6 @@
 ---
-title:  "Overview of SNOMED CT"
-excerpt: SNOMED CT 조감
+title:  "Introduction to SNOMED CT"
+excerpt: "Introduction to SNOMED CT 도입부"
 
 categories: SToM
 
@@ -14,7 +14,7 @@ toc_sticky: true
 
 ---
 
-## Overview of SNOMED CT
+## Chapter 1. Overview of SNOMED CT
 
 SNOMED는 acronym으로 Systematized Nomenclature of Medicine  
 CT는 Clinical Terms의 acronym이다.
@@ -29,7 +29,7 @@ interface terminology이다.
 
 How to use the EHR system that uses SNOMED CT, 모든 사용자는 어떻게 가장 '올바른' clinical term 또는 term을 찾을 수 있는가를 알 필요가 있다.  
 
-## Need for Clinical Terminology
+## Chapter 2. Need for Clinical Terminology
 
 ### 2.1 Clinical summary
 
