@@ -15,4 +15,3 @@ toc_sticky: true
 ---
 
 ## Overview of SNOMED CT
-
