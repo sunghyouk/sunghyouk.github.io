@@ -56,7 +56,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "SToM" %}
-                        <li><a href="/categories/Standard" class="">SToM ({{category[1].size}})</a></li>
+                        <li><a href="/categories/SToM" class="">SToM ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

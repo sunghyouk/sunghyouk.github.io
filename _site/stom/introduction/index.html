@@ -9,30 +9,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Category - BLOG: I Want to collect all my knowledge on One Place</title>
-<meta name="description" content="Accumulating day by day">
+<!-- begin _includes/seo.html --><title>Introduction to SNOMED CT - BLOG: I Want to collect all my knowledge on One Place</title>
+<meta name="description" content="Introduction to SNOMED CT 도입부">
 
 
   <meta name="author" content="Sung Hyouk Choi">
   
+  <meta property="article:author" content="Sung Hyouk Choi">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="BLOG: I Want to collect all my knowledge on One Place">
-<meta property="og:title" content="Posts by Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="Introduction to SNOMED CT">
+<meta property="og:url" content="http://localhost:4000/stom/introduction/">
 
 
-  <meta property="og:description" content="Accumulating day by day">
-
-
-
+  <meta property="og:description" content="Introduction to SNOMED CT 도입부">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2021-10-07T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2021-10-07T00:00:00+09:00">
 
 
 
@@ -41,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/stom/introduction/">
 
 
 
@@ -99,7 +105,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -449,246 +455,196 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Posts by Category</h1>
-    
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Introduction to SNOMED CT">
+    <meta itemprop="description" content="Introduction to SNOMED CT 도입부">
+    <meta itemprop="datePublished" content="2021-10-07T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2021-10-07T00:00:00+09:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Introduction to SNOMED CT
+</h1>
+          
+
+  <p class="page__meta">
     
 
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 분 소요
+        
+      </span>
+    
+  </p>
 
 
+        </header>
+      
 
-<ul class="taxonomy__index">
-  
-    
-      
-    
-      
-    
-      
-        <li>
-          <a href="#ml">
-            <strong>ML</strong> <span class="taxonomy__count">3</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#coding">
-            <strong>Coding</strong> <span class="taxonomy__count">3</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
-    
-      
-        <li>
-          <a href="#blog">
-            <strong>Blog</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#math">
-            <strong>MATH</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#repair">
-            <strong>Repair</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#stom">
-            <strong>SToM</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu"><li><a href="#chapter-1-overview-of-snomed-ct">Chapter 1. Overview of SNOMED CT</a></li><li><a href="#chapter-2-need-for-clinical-terminology">Chapter 2. Need for Clinical Terminology</a><ul><li><a href="#21-clinical-summary">2.1 Clinical summary</a></li><li><a href="#22-discussion">2.2 Discussion</a><ul><li><a href="#221-semantics-et-al">2.2.1 Semantics et al</a></li><li><a href="#222-some-word-defined">2.2.2 Some Word Defined</a></li></ul></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="chapter-1-overview-of-snomed-ct">Chapter 1. Overview of SNOMED CT</h2>
+
+<p><code class="language-plaintext highlighter-rouge">SNOMED</code>는 acronym으로 <strong>Systematized Nomenclature of Medicine</strong><br />
+<code class="language-plaintext highlighter-rouge">CT</code>는 <strong>Clinical Terms</strong>의 acronym이다.</p>
+
+<p>SNOMED CT는 <code class="language-plaintext highlighter-rouge">semantically interoperable</code> polyhierarchical subtype multi-lexical clinical terminology system이다. : 무슨 말인지 모르겠다.</p>
+
+<p>capable of multi-language support, 그 구조 - reference terminology - 는 ‘reference features’를 추가하며 논리 기반의 subsumption과 clinical terms의 추출을 허용한다. : 무슨 말인지 모르겠다.</p>
+
+<p>interface terminology이다. : healthcare IT 시스템의 UI에서 임상 데이터 입력과 게시에 대해 사용된다는 의미</p>
+
+<p><code class="language-plaintext highlighter-rouge">semantic interoperability</code>는 개인의 전 생애 EHR의 creation과 maintenance에 필수적이다.</p>
+
+<p>How to use the EHR system that uses SNOMED CT, 모든 사용자는 어떻게 가장 ‘올바른’ clinical term 또는 term을 찾을 수 있는가를 알 필요가 있다.</p>
+
+<h2 id="chapter-2-need-for-clinical-terminology">Chapter 2. Need for Clinical Terminology</h2>
+
+<h3 id="21-clinical-summary">2.1 Clinical summary</h3>
+
+<p>환자의 내원 - 주소 - 신체 검진, 진찰 - 혈액 검사 - 처방 - 향후 계획의 예시<br />
+환자-의사의 관계 밖에 있는 누군가가 이 summary를 본다면 이로부터 발생하는 pertinent questions에 답할 수 있는가?</p>
+
+<h3 id="22-discussion">2.2 Discussion</h3>
+
+<p>대충, healthcare에서 ICT의 역할은 새 기계를 사거나 진단 장비를 사는데 뒤쳐지고 있고,<br />
+이로 인한 손해는 환자가 가장 크며, clinicians, insurer, 국가 모두 손해를 보고 있다는 내용</p>
+
+<h4 id="221-semantics-et-al">2.2.1 Semantics et al</h4>
+
+<p>정보가 그 의미를 모호함이 없이 보유하도록 확신을 주는 것이 궁극적으로 중요하다.<br />
+그러기 위해 구조적 본래의 상태 <code class="language-plaintext highlighter-rouge">integrity</code>를 보유할 뿐 아니라 항상 의미론 <code class="language-plaintext highlighter-rouge">semantics</code>을 유지하는 것도 중요하다.</p>
+
+<p>어떤 상태의 시점에 대한 문제 - 과거력인지 현재 진행 중인 상태인지<br />
+<code class="language-plaintext highlighter-rouge">homonym</code> - 다른 상태, 해부학적 구조를 의미하는 유사한 단어<br />
+<code class="language-plaintext highlighter-rouge">synonym</code> - 같은 상태와 구조를 의미하는 다른 단어<br />
+<code class="language-plaintext highlighter-rouge">eponym</code> - 어떤 상태를 나타내는 사람의 이름<br />
+<code class="language-plaintext highlighter-rouge">acronym</code> - 두문자<br />
+<code class="language-plaintext highlighter-rouge">abbreviation</code> - 약자</p>
+
+<p>이들의 결과로, 관찰이 기록될 때 clinician이 실제로 의미하는 것이 무엇인지를 잡아내는 것은 상당한 도전 과제이다.<br />
+이를 해결하기 위한 두 가지 접근 방법이 있다.<br />
+한 가지는 <em>시작점이 단어 또는 용어인 lexicography</em>,<br />
+다른 한 가지는 <em>시작점이 concept인 terminology</em> 방법이 있을 수 있다.</p>
+
+<ul>
+  <li>용어 기반의 접근법은 다양한 <code class="language-plaintext highlighter-rouge">homonym</code>을 처리할 수 있다. 예를 들어, cold는 감각으로 common cold는 질병으로 처리할 수 있다.</li>
+  <li>concept 기반의 접근법은 다양한 <code class="language-plaintext highlighter-rouge">synonym</code>을 처리할 수 있다. 예를 들어 같은 concept의 다른 표현인 myocardial infarction과 heart attack과 같은 것을 처리할 수 있다.</li>
 </ul>
 
+<h4 id="222-some-word-defined">2.2.2 Some Word Defined</h4>
 
+<p>concept은 개념과 생각의 단위를 표현하며, object와 designation 사이에 연결을 형성한다.<br />
+<code class="language-plaintext highlighter-rouge">designation</code> - sign에 의한 concept의 표현<br />
+<code class="language-plaintext highlighter-rouge">term</code> - 특정 주제 영역에서 general concept의 verbal designation</p>
 
-  
-    
-  
-    
-  
-    
-      <section id="ml" class="taxonomy__section">
-        <h2 class="archive__subtitle">ML</h2>
-        <div class="entries-list">
-          
-            
+<p>concept system은 의미론적 문맥에서 모르는 concept의 배치를 허용하여 다른 concept과 관계에서 특정 concept의 중요도나 강도의 개념을 이끌어 낸다.<br />
+그러므로 concept system이 더 어울리고 강건하다 할 수 있다.</p>
 
+<p>가장 흔한 system은 <code class="language-plaintext highlighter-rouge">generic</code> (<strong>is a</strong>) relationship 혹은 <code class="language-plaintext highlighter-rouge">partitive</code> relationship (<strong>part of</strong>)에 기반한다.</p>
 
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ml/regression/" rel="permalink">Regression algorithm의 간단한 원리
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
         
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Regression algorithm
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ml/knn/" rel="permalink">K-NN algorithm의 간단한 원리
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">K-NN algorithm
-</p>
-  </article>
-</div>
-
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/ml/kmeans/" rel="permalink">K-means algorithm의 간단한 원리
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">K-means algorithm
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
       </section>
-    
+
+      <footer class="page__meta">
+        
+        
   
-    
+
+
   
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> 태그: </strong>
+    <span itemprop="keywords">
     
-      <section id="coding" class="taxonomy__section">
-        <h2 class="archive__subtitle">Coding</h2>
-        <div class="entries-list">
+      <a href="/tags/#snomed" class="page__taxonomy-item" rel="tag">SNOMED</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#stom" class="page__taxonomy-item" rel="tag">SToM</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2021-10-07">October 7, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">공유하기</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Introduction+to+SNOMED+CT%20http%3A%2F%2Flocalhost%3A4000%2Fstom%2Fintroduction%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fstom%2Fintroduction%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fstom%2Fintroduction%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/coding/hidden/" class="pagination--pager" title="Mac 숨김 파일 보기/다시 숨기기
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">참고</h4>
+      <div class="grid__wrapper">
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -723,12 +679,12 @@
   </article>
 </div>
 
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -763,12 +719,12 @@
   </article>
 </div>
 
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -803,45 +759,17 @@
   </article>
 </div>
 
+        
           
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-    
-      <section id="blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Blog</h2>
-        <div class="entries-list">
-          
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/welcome/" rel="permalink">Welcome to my repository
+        <a href="/ml/regression/" rel="permalink">Regression algorithm의 간단한 원리
 </a>
       
     </h2>
@@ -866,175 +794,18 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Welcome
+    <p class="archive__item-excerpt" itemprop="description">Regression algorithm
 </p>
   </article>
 </div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
+        
+      </div>
+    </div>
   
-    
-      <section id="math" class="taxonomy__section">
-        <h2 class="archive__subtitle">MATH</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/math/chapter_1/" rel="permalink">Mathematics for machine learning - Chapter 1: Introduction and motivation
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Introduction
-</p>
-  </article>
+  
 </div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-      <section id="repair" class="taxonomy__section">
-        <h2 class="archive__subtitle">Repair</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/repair/repair/" rel="permalink">iMac (Retina 5K, 27-inch, Late 2015) 고치기 (1)
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          최대 1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Fusion drive 복구
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-    
-  
-    
-      <section id="stom" class="taxonomy__section">
-        <h2 class="archive__subtitle">SToM</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/stom/introduction/" rel="permalink">Introduction to SNOMED CT
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 분 소요
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Introduction to SNOMED CT 도입부
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">맨 위로 이동 &uarr;</a>
-      </section>
-    
-  
-
-
-  </div>
-</div>
     </div>
 
     
