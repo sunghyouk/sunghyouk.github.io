@@ -60,6 +60,35 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+      <span class="nav__sub-title">Programming</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "R" %}
+                        <li><a href="/categories/R" class="">R Programming ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SAS" %}
+                        <li><a href="/categories/SAS" class="">SAS Programming({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/Python" class="">Python Programming ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL Programming ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>  
       <span class="nav__sub-title">Blog/Tips</span>
             <ul>
                 {% for category in site.categories %}
