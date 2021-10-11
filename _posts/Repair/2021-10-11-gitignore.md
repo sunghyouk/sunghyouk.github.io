@@ -9,9 +9,6 @@ tags: [gitignore, DS_Store]
 date: 2021-10-11
 last_modified_at: 2021-10-11
 
-toc: true
-toc_sticky: true
-
 ---
 
 google 검색 키워드: github, DS_Store
@@ -29,7 +26,7 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 
 앞으로 `.DS_Store`를 업로드 하지 않게 하려면 `.gitignore`에 아래와 같이 추가해서 무시하도록 만든다.
 
-```vi
+```vim
 echo .DS_Store >> .gitignore
 ```
 
@@ -41,7 +38,7 @@ vi .gitignore
 
 이에 더해서 나만 봐야 하는 word, excel, pdf, 용량이 큰 csv, 압축 파일 등도 같이 업로드를 방지하려면 `.gitignore`에 다음도 추가
 
-```vi
+```vim
 *.DS_Store
 *.docx
 *.xlsx
@@ -60,7 +57,7 @@ git push origin master
 
 아직 해보지 않았지만, 전역으로 `.gitignore_global`을 만들어서 모든 저장소에 적용할 수 있는 방법도 있다.
 
-```vi
+```vim
 echo .DS_Store >> ~/.gitignore_global
 ```
 
