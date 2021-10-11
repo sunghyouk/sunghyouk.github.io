@@ -40,6 +40,18 @@ source ~/.zshrc
 
 `False`를 `True`로 바꾸면 off 상태가 on 상태로 바뀌면서 터미널 시작 시 마다 활성화 된다.  
 
+이제 다시 현재 상태에서 가상 환경을 쓰고 싶다면
+
+```zsh
+conda activate base # 가상 환경의 이름
+```
+
+다시 끄고 싶다면,
+
+```zsh
+conda deactivate
+```
+
 ## 3. 결론
 
 좀 귀찮아 지기는 하다만, VS code에서 R을 쓰는 데 몰입감이 생긴다.  
