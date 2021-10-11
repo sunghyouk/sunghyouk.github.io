@@ -137,3 +137,4 @@ echo .DS_Store >> .gitignore
 *.docx
 *.pdf
 *.xlsx
+*.gz
