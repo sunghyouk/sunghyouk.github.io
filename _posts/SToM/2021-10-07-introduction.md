@@ -7,7 +7,7 @@ categories: SToM
 tags: [SNOMED]
 
 date: 2021-10-07
-last_modified_at: 2021-10-07
+last_modified_at: 2021-10-14
 
 toc: true
 toc_sticky: true
@@ -71,3 +71,30 @@ concept system은 의미론적 문맥에서 모르는 concept의 배치를 허�
 그러므로 concept system이 더 어울리고 강건하다 할 수 있다.  
 
 가장 흔한 system은 `generic` (**is a**) relationship 혹은 `partitive` (**part of**) relationship에 기반한다.  
+
+#### 2.2.3 Which controlled medical vocabulary?
+
+controlled medical vocabulary가 21세기에 맞춰야할 요구 조건을 자세히 제시   
+
+#### 2.2.4 Insufficiency of broad-category code systems
+
+의무 기록의 세 가지 기본적인 점
+
+* 의무 기록은 개인 건강에 대한 key document이지만 이 가정은 점차 틀린 것 같다.
+
+* 모든 의무 기록은 보험 영수증이나 다른 목적을 위한 통계 개발에 사용된다.
+
+* 전체 정보 체계가 코드 의존적이다.
+
+의료 기록 체계에서 네 가지 결함
+
+* 의료 기록 체계가 정보의 왜곡을 만들 수 있다.
+
+* 의료 기록 체계가 정확하고 자세한 진단의 포착 할 수 없다.
+  * 이는 entity coding으로 수정될 수 있다.
+  * 자세한 진단이나 clinical entities에 영구적인 코드를 포착하고 제공하는 적절한 front end를 가진 의료 기록 체계
+  
+* 의료 종사자들도 입력된 것의 의미를 정확히 알지 못한다.
+
+* 단일 분류 체계는 모든 요구에 응할 수 없다.
+
