@@ -74,7 +74,7 @@ concept system은 의미론적 문맥에서 모르는 concept의 배치를 허�
 
 #### 2.2.3 Which controlled medical vocabulary?
 
-controlled medical vocabulary가 21세기에 맞춰야할 요구 조건을 자세히 제시   
+controlled medical vocabulary가 21세기에 맞춰야할 요구 조건을 자세히 제시
 
 #### 2.2.4 Insufficiency of broad-category code systems
 
@@ -97,4 +97,3 @@ controlled medical vocabulary가 21세기에 맞춰야할 요구 조건을 자�
 * 의료 종사자들도 입력된 것의 의미를 정확히 알지 못한다.
 
 * 단일 분류 체계는 모든 요구에 응할 수 없다.
-
