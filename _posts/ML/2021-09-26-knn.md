@@ -7,6 +7,7 @@ categories:
 - ML
 
 tags: [ML, algorithm]
+use_math: true
 
 date: 2021-09-26
 last_modified_at: 2021-09-26

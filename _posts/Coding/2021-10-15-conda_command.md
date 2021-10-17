@@ -18,3 +18,5 @@ last_modified_at: 2021-10-15
 ```zsh
 conda info --envs
 ```
+
+### 1.1 
