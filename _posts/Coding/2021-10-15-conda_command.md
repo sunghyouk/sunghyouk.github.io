@@ -19,4 +19,9 @@ last_modified_at: 2021-10-15
 conda info --envs
 ```
 
-### 1.1 
+### 1.1 가상 환경 활성화/비활성화
+
+```zsh
+conda activate <name-of-virtual_env>
+conda deactivate
+```
