@@ -112,5 +112,21 @@
                 {% endfor %}
             </ul>
       </li>
+      <span class="nav__sub-title">Terminal 잘 쓰기</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Vim" %}
+                        <li><a href="/categories/Vim" class="">Vim/Neovim configuration ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/Git" class="">Git 사용법({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
   </ul>
 </nav>
