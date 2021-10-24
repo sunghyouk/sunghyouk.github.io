@@ -111,7 +111,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
       <span class="nav__sub-title">Terminal 잘 쓰기</span>
             <ul>
                 {% for category in site.categories %}
