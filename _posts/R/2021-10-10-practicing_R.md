@@ -1,6 +1,6 @@
 ---
 title:  "R을 이용한 데이터 처리 & 분석 실무 - 서민구 지음"
-excerpt: R 실용서를 보며 R 정리하기
+excerpt: "R 실용서를 보며 R 정리하기 - 1장 환경 준비하기"
 
 categories: R
 
