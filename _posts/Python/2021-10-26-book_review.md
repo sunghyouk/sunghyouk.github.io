@@ -26,7 +26,7 @@ toc_sticky: true
 
 를 추천하였고, 나의 경우 여전히 배울 것이 많은 (개발)자여서 2장부터 시작하기로 하였다.
 
-[길벗출판사의 깃허브]<https://github.com/gilbutITbook/080222>에 jupyter notebook의 파일로 chapter 별 코드가 정리되어 있어  
+[길벗출판사의 깃허브](https://github.com/gilbutITbook/080222)에 jupyter notebook의 파일로 chapter 별 코드가 정리되어 있어  
 읽다가 이 코드의 결과가 어떻게 나올까 싶거나 내 블로그에 markup하거나 따라 해보기 정말 편했다.
 
 전공 특성 상 프로그래밍 언어를 배우거나 내가 직접 코드를 짜거나 남의 코드를 보고 연구할 일이 없었지만,  
