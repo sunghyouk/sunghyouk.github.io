@@ -52,6 +52,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Paper Summary</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PaperSummary" %}
+                        <li><a href="/categories/PaperSummary" class="">PaperSummary ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Standard Terminology of Medicine</span>
             <ul>
                 {% for category in site.categories %}
