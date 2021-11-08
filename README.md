@@ -20,36 +20,36 @@ Category B: MATH, STAT의 컴퓨터 구현을 다룹니다.
   - 프로그래머를 위한 선형대수
   - 프로그래머를 위한 확률과 통계
   - 프로그래머를 위한 기초 해석학
-  - Mathematics for Machine learning  
+  - Mathematics for Machine learning
 
 - General STAT
   - Linear models with R
   - Extending the linear model with R
-  - Introduction to Generalized linear model  
-
+  - Introduction to Generalized linear model
+  
 - Specified STAT
   - R을 이용한 생존분석 기초
   - R기반 성향점수 분석
-  - Practical PSM using R  
+  - Practical PSM using R
 
 Category C: Standard terminology of medicine (주로 SNOMED CT에 관한 contents)  
 
 - Starting SNOMED
-- Introduction to SNOMED CT  
+- Introduction to SNOMED CT
 
 Category D: Paper Summary (읽은 AI/ML/DL/Statistics 논문)  
 
 Category E: `R`, `Python`, `SAS`, `SQL` code snippet  
 
 - R
-  - R을 이용한 데이터 처리 & 분석 실무  
-  
+  - R을 이용한 데이터 처리 & 분석 실무
+
 - Python
   - 혼자 공부하는 파이썬
-  - 처음 시작하는 파이썬  
+  - 처음 시작하는 파이썬
 
 - SAS
-  - 예제로 배우는 SAS 고급 프로그래밍  
+  - 예제로 배우는 SAS 고급 프로그래밍
 
 Category F: Blogging, Mac 사용 중 종종 마주치는 문제와 코딩하며 마주치는 문제에 대한 해결법 등의 범주입니다.  
 
@@ -64,8 +64,6 @@ Category G: Mac terminal의 사용을 쉽게 해 주는 utility와 git, vim/neov
 - vim/neovim
 - .vimrc (init.vim)
 - vim plugins
-  
 - 공부하고 있는 git 내용 정리
-  
 - terminal utility
 - github, jekyll blog 구축 과정
