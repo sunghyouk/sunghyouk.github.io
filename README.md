@@ -8,8 +8,8 @@ Category `A`: AI, ML, DL의 분석 방법, 알고리즘의 소개, 구현 등을
 
 - Artificial Intelligence: Modern Approach (4th edition) `ing`
 - 수학과 함께하는 AI 기초 `fin`
-- 머신러닝 교과서 (3rd edition)
-- 핸즈온 머신러닝 (2nd edition)
+- 머신러닝 교과서 (3rd edition) `not yet`
+- 핸즈온 머신러닝 (2nd edition) `not yet`
 - 혼자 공부하는 머신러닝+딥러닝 `ing`
 - 밑바닥부터 시작하는 딥러닝 `ing`
 
@@ -56,14 +56,14 @@ Category `F`: Blogging, Mac 사용 중 종종 마주치는 문제와 코딩하�
 - Practical computing for biologists `fin`
 - anaconda command `update-ing`
 - mac 단축키 `update-ing`
-- 공부하고 있는 Regular expression
-- 공부하고 있는 기초적인 Latex 문법 등
+- 공부하고 있는 Regular expression `not yet`
+- 공부하고 있는 기초적인 Latex 문법 등 `not yet`
 
 Category `G`: Mac terminal의 사용을 쉽게 해 주는 utility와 git, vim/neovim의 plugin등의 설치와 사용에 대한 이야기를 다룹니다.  
 
-- vim/neovim
-- .vimrc (init.vim)
-- vim plugins
-- 공부하고 있는 git 내용 정리
-- terminal utility
-- github, jekyll blog 구축 과정
+- vim/neovim `not yet`
+- .vimrc (init.vim) `not yet`
+- vim plugins `not yet`
+- 공부하고 있는 git 내용 정리 `not yet`
+- terminal utility `not yet`
+- github, jekyll blog 구축 과정 `not yet`
