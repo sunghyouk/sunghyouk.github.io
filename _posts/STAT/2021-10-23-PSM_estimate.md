@@ -65,3 +65,23 @@ summary(logis_ps)
 mydata$ps_logit <- predict(logis_ps, mydata,
                           type = "link")  # 로짓
 ```
+
+선형로짓 형태의 성향점수와 추정확률 형태의 성향점수 분포를 히스토그램을 통해 비교  
+
+### 3. 공통지지영역 점검
+
+성향점수 추정 후 처치집단의 성향점수와 통제집단의 성향점수가 얼마나 겹쳐지는지 (overlapped) - `common support region`  
+분리 현상 (separation)이 나타나면 두 집단은 서로 비교될 수 없음  
+이는 히스토그램과 박스 플롯을 이용할 수 있음
+
+*cf)* 하지만, `MatchIt`, `cobalt` 패키지를 이용하면 성향 점수 추정, 공통 지지 영역 확인 과정이 대폭 축소됨  
+
+## Chapter 3. 성향점수분석 기법 실습을 위한 R 패키지
+
+1. 연구 설계
+2. 데이터 전처리 - `tidyverse`, `Zelig`, `nnet`, `Hmisc`
+3. 성향점수 추정 - `MatchIt`
+4. 성향점수 분석 - `MatchIt`
+5. 균형성 점검 - `cobalt`
+6. 처치효과 추정 - `tidyverse`, `Zelig`, `nnet`, `Hmisc`
+7. 민감도 분석 - `treatSens`, `sensitivitymw`, `sensitivityfull`
