@@ -50,3 +50,9 @@ mapping이 문제 해결 과정인가? - `international release`에 이미 **ICD
 
 ## 5.3 Extensions
 
+a set of terminology component and derivatives / that add to and are dependent on the SNOMED CT International Edition  
+international edition만 사용 시 충족되지 않는 간극을 메우기 위해 사용  
+
+always keep in mind, meaning of a SNOMED CT concept should never be changed to meet a local requirement  
+
+must be `noted`, any person or organization that uses any extension at any time does so at entirely their own risk.  
