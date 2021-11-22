@@ -19,11 +19,17 @@ terminal에서 손 쉽게 쓸 수 있고 (mac의 검색 기능이 너무 느려�
 
 전제:
 
-1. mac을 사용하고 있음
+1. `mac (Intel)`을 사용하고 있음
 2. `homebrew` 설치되어 있음
-3. `git`이 깔려 있음
+3. `git`이 설치되어 있음
+4. `iTerm2`를 사용하고 있음
+5. `zsh`를 사용하고 `oh-my-zsh`가 설치되어 있음
 
-## 1. `ripgrep`
+이 전제를 충족시키기 위한 블로그 글이 엄청 많다. 하나 선택해서 쭈욱 따라오면 된다.  
+나는 거의 이 분이 만들어 놓은 순서대로 따라왔다. + 최근에 글을 리뉴얼 하신 듯 하다.  
+[[Subicura 님의 블로그]](https://subicura.com/mac/dev/)
+
+## 1. `ripgrep` (rg)
 
 [[BurntSushi/ripgrep]](https://github.com/BurntSushi/ripgrep#installation)  
 
@@ -31,10 +37,14 @@ terminal에서 손 쉽게 쓸 수 있고 (mac의 검색 기능이 너무 느려�
 
 ## 3. `ag`
 
+the Silver Searcher
+
 ## 4. `lsd`
 
-## 5. `asdf`
+## 5. `fasd`
 
-## 6. `fasd`
+## 6. `fd`
+
+## 7. `bat`
 
 TODO (21.11.22) 각 utility의 간단한 사용법 추가 예정  
