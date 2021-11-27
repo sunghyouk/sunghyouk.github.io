@@ -48,4 +48,6 @@ toc_sticky: true
 
 ## 7. nodejs
 
+## 8. rust
+
 TODO: (21.11.22) 각 항목에 대한 설치 링크, uninstall 방법 추가 예정  
