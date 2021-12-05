@@ -22,13 +22,14 @@ toc_sticky: true
 그러기 전에 요새는 새 언어 팩을 받아야 한다면 거의 대부분 package manager를 통해 설치하도록 안내가 되어 있고, 내가 깔려는 package의 정보에 대해서도 이게 자체 제작인지 third-party에서 온 것인지 어떻게 install 해야 하는 지에 대한 안내가 잘 되어 있다.  
 시간이 없더라도 한 번씩 읽어 보고 추가하는 것을 권장한다.  
 
-전제:
+전제 (prerequisite of prerequisite)
 
 1. `mac (Intel)`을 사용하고 있음
-2. `homebrew` 설치되어 있음
-3. `git`이 설치되어 있음
-4. `iTerm2`를 사용하고 있음
-5. `zsh`를 사용하고 `oh-my-zsh`가 설치되어 있음
+2. Mac용 package manager로 `homebrew`가 설치되어 있음
+3. `curl`, `wget`이 설치되어 있음
+4. `git`이 설치되어 있음
+5. terminal emulator로`iTerm2`를 사용하고 있음
+6. 표준 shell로 `zsh`를 사용하고 `oh-my-zsh`가 설치되어 있음
 
 이 전제를 충족시키기 위한 블로그 글이 엄청 많다. 하나 선택해서 쭈욱 따라오면 된다.  
 나는 거의 이 분이 만들어 놓은 순서대로 따라왔다. + 최근에 글을 리뉴얼 하신 듯 하다.  
