@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 
 date: 2021-09-29
-last_modified_at: 2021-12-10
+last_modified_at: {% last_modified_at %Y:%B:%A:%d:%S:%R %}
 
 ---
 
@@ -55,10 +55,10 @@ conda activate base # 가상 환경의 이름
 conda deactivate
 ```
 
-## 2. Anaconda 삭제하기
+## 3. Anaconda 삭제하기
 
-anaconda의 공식 문서 참조 하기: <https://docs.anaconda.com/anaconda/install/uninstall/>
-stackoverflow의 게시물 참조: <https://stackoverflow.com/questions/42182706/how-to-uninstall-anaconda-completely-from-macos>
+anaconda의 공식 문서 참조 하기: <https://docs.anaconda.com/anaconda/install/uninstall/>  
+stackoverflow의 게시물 참조: <https://stackoverflow.com/questions/42182706/how-to-uninstall-anaconda-completely-from-macos>  
 
 mac의 경우 터미널을 열고 전체 Anaconda를 삭제하자.  
 일단 anaconda-clean이라는 모듈을 설치하자. 삭제하는 데도 모듈을 설치하라니...  
