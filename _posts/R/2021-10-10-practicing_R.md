@@ -33,7 +33,7 @@ help.start() # R 시스템 전반에 대한 도움말을 담고 있는 HTML 페�
 ### 6. 배치 실행
 
 R script를 사용해 코드를 .R 파일에 저장하고 배치로 실행하거나,  
-**source()**: 파일 또는 url에서 입력을 받아 R script에서 불러 들여 실행함
+source(): 파일 또는 url에서 입력을 받아 R script에서 불러 들여 실행함
 
 ```R
 source(
