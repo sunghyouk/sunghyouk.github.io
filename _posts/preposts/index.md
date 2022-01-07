@@ -28,7 +28,7 @@
         2) Extending the linear model
           - Extending the linear model with R
     
-    3) Detailed statistics (Frequentists)
+    3) Detailed statistics - Frequentists
         1) DS1: Regression
           - An introduction to generalized linear models
           - Logistic regression
@@ -66,22 +66,22 @@
         12) DS2: Joint modelling
           - Joint models for longitudinal & time-to-event data
     
-    4) Detailed statistics (Bayesian)
+    4) Detailed statistics - Bayesian
       - 프로그래머를 위한 베이지안 with 파이썬
       - Doing Bayesian data analysis
       - Bayesian data analysis
     
     5) Artifical intelligence
       - 인공지능: 현대적 접근방식
-      - 쏙쏙 들어오는 인공지능 알고리즘
+      - 쏙쏙 들어오는 인공지능 알고리즘 [[2022-01-07-Grokking_AI_algorithm]]
     
-    6) Machine learning (R)
+    6) Machine learning - R
       - 실전 예측 분석 모델링
       - An introduction to statistical learning
       - R을 활용한 기계 학습
       - R로 마스터하는 머신러닝
     
-    7) Machine learning (Python)
+    7) Machine learning - Python
       - 혼자 공부하는 머신러닝 + 딥러닝
       - 머신러닝 교과서 with Python, Scikit-learn, Tensorflow
       - 선형대수와 통계학으로 배우는 머신러닝 with 파이썬
