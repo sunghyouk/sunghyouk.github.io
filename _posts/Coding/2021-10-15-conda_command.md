@@ -26,13 +26,14 @@ last_modified_at: 2021-10-15
 
 ## 1. 가상 환경 만들기/복사하기/지우기
 
-*docker를 사용하는 것이 더 좋지 않을까?*
-
 ```zsh
-conda create -n <new-virtual-env> python=version
-
 conda info --envs # 가상 환경의 리스트 보기
+conda search python # 설치 가능한 파이썬 버전 확인
+
+conda create -n <new-virtual-env> python=<version>
 ```
+
+`-n`은 `--name`과 같다.
 
 ### 1.1 새 환경에 들어가 보기
 
