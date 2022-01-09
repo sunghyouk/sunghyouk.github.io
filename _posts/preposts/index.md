@@ -6,8 +6,8 @@
 
 ### 1) Mathematics
 
-* 수학과 함께하는 AI 기초 `fin`
-* 머신러닝 딥러닝에 필요한 기초 수학 with 파이썬 `fin`
+* 수학과 함께하는 AI 기초 `fin` `not yet`
+* 머신러닝 딥러닝에 필요한 기초 수학 with 파이썬 `fin` `not yet`
 * Mathematics for machine learning `ref`
 
 #### 1) Linear algebra
@@ -215,7 +215,7 @@
 
 * Starting SNOMED `fin`
 * Introduction to SNOMED CT `fin` [[2022-01-08-snomed]]
-* Statistics and machine learning methods for EHR data `ing`
+* Statistics and machine learning methods for EHR data `ing` [[2022-01-09-EHR_data]]
 
 #### 2) 블록체인
 
