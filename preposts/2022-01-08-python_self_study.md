@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 혼자 공부하는 파이썬 
-summary : Contents 
+title   : "혼자 공부하는 파이썬"
+summary : "Contents"
 date    : 2022-01-08 16:57:27 +0900
-updated : 2022-01-08 17:09:41 +0900
+updated : 2022-01-10 16:14:37 +0900
 tag     : 
 toc     : true
 public  : true

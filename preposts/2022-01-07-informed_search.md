@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Grokking Artificial intelligence algorithm chapter 3. 지능형 검색
-summary : 쏙쏙 들어오는 인공지능 알고리즘 chapter 3. 지능형 검색
+title   : "Grokking Artificial intelligence algorithm chapter 3. 지능형 검색"
+summary : "쏙쏙 들어오는 인공지능 알고리즘 chapter 3. 지능형 검색"
 date    : 2022-01-07 22:31:14 +0900
-updated : 2022-01-08 10:07:09 +0900
+updated : 2022-01-10 16:12:09 +0900
 tag     :  
 toc     : true
 public  : true

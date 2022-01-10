@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Introduction to SNOMED CT Chapter 11. Overall assessment 
-summary : Chapter 11. Overall assessment
+title   : "Introduction to SNOMED CT Chapter 11. Overall assessment"
+summary : "Chapter 11. Overall assessment"
 date    : 2022-01-08 17:42:09 +0900
-updated : 2022-01-08 17:43:26 +0900
+updated : 2022-01-10 16:37:07 +0900
 tag     : 
 toc     : true
 public  : true

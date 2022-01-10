@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Introduction to SNOMED CT Chapter 8. Clinical analytics with SNOMED CT
-summary : Chapter 8. Clinical analytics with SNOMED CT 
+title   : "Introduction to SNOMED CT Chapter 8. Clinical analytics with SNOMED CT"
+summary : "Chapter 8. Clinical analytics with SNOMED CT"
 date    : 2022-01-08 17:36:53 +0900
-updated : 2022-01-08 17:38:09 +0900
+updated : 2022-01-10 16:37:07 +0900
 tag     : 
 toc     : true
 public  : true

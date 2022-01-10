@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Grokking artificial intelligence algorithm Chapter 1. 인공지능의 직관적 이해 
-summary : 인공지능의 직관적 이해
+title   : "Grokking artificial intelligence algorithm Chapter 1. 인공지능의 직관적 이해" 
+summary : "인공지능의 직관적 이해"
 date    : 2022-01-07 22:29:03 +0900
-updated : 2022-01-07 23:08:01 +0900
+updated : 2022-01-10 16:12:12 +0900
 tag     : 
 toc     : true
 public  : true

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 혼자 공부하는 파이썬 Chapter 6. 예외 처리 
-summary : Chapter 6. 예외 처리
+title   : "혼자 공부하는 파이썬 Chapter 6. 예외 처리"
+summary : "Chapter 6. 예외 처리"
 date    : 2022-01-08 17:05:39 +0900
-updated : 2022-01-08 17:08:12 +0900
+updated : 2022-01-10 16:14:37 +0900
 tag     : 
 toc     : true
 public  : true

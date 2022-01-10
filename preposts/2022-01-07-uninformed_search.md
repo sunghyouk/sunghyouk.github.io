@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Grokking artificial intelligence algorithm Chapter 2. 검색의 기초
-summary : 검색의 기초
+title   : "Grokking artificial intelligence algorithm Chapter 2. 검색의 기초"
+summary : "검색의 기초"
 date    : 2022-01-07 23:02:08 +0900
-updated : 2022-01-07 23:08:31 +0900
+updated : 2022-01-10 16:12:12 +0900
 tag     : #계획 #검색 #계산비용 #그래프 #자료구조 #정보없는검색 #너비우선검색 #깊이우선탐색 
 toc     : true
 public  : true

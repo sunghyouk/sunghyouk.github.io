@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Grokking artificial intelligence algorithm Contents 
-summary : contents
+title   : "Grokking artificial intelligence algorithm Contents" 
+summary : "Contents"
 date    : 2022-01-07 22:27:12 +0900
-updated : 2022-01-07 23:06:06 +0900
+updated : 2022-01-10 16:12:12 +0900
 tag     : 
 toc     : true
 public  : true

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Introduction to SNOMED CT Chapter 5. Extending SNOMED CT 
-summary : Chapter 5. Extending SNOMED CT 
+title   : "Introduction to SNOMED CT Chapter 5. Extending SNOMED CT"
+summary : "Chapter 5. Extending SNOMED CT"
 date    : 2022-01-08 17:28:40 +0900
-updated : 2022-01-08 17:34:31 +0900
+updated : 2022-01-10 16:37:07 +0900
 tag     : 
 toc     : true
 public  : true

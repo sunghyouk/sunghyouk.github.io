@@ -6,7 +6,7 @@
 
 ### 1) Mathematics
 
-* 수학과 함께하는 AI 기초 `fin` `not yet`
+* 수학과 함께하는 AI 기초 `fin` `not yet` [[2022-01-10-AI_with_math]]
 * 머신러닝 딥러닝에 필요한 기초 수학 with 파이썬 `fin` `not yet`
 * Mathematics for machine learning `ref`
 
@@ -72,9 +72,9 @@
 
 #### 7) DS2: Survival analysis
 
-* R을 이용한 생존분석 기초 `fin`
+* R을 이용한 생존분석 기초 `fin` `not yet`
 * 생존분석
-* Survival analysis `fin`
+* Survival analysis `fin` `NOTION`
 * Applied survival analysis using R
 * Modelling survival data
 * Modelling survival data in medical research
@@ -96,8 +96,8 @@
 
 #### 11) DS2: Propensity score analysis
 
-* R기반 성향점수 분석 `ing`
-* Practical propensity score methods using R `fin`
+* R기반 성향점수 분석 `ing` [[2022-01-10-PSM_R]]
+* Practical propensity score methods using R `fin` `not yet`
 
 #### 12) DS2: Joint modelling
 
@@ -111,7 +111,7 @@
 
 ### 5) Artifical intelligence
 
-* 인공지능: 현대적 접근방식 `fin`
+* 인공지능: 현대적 접근방식 `fin` `OBSIDIAN` `NOTION`
 * 쏙쏙 들어오는 인공지능 알고리즘 `ing` [[2022-01-07-Grokking_AI_algorithm]]
 
 ### 6) Machine learning - R
@@ -124,7 +124,7 @@
 ### 7) Machine learning - Python
 
 * 혼자 공부하는 머신러닝 + 딥러닝 `fin`
-* 머신러닝 교과서 with Python, Scikit-learn, Tensorflow `ing`
+* 머신러닝 교과서 with Python, Scikit-learn, Tensorflow `ing` [[2022-01-10-python_machine_learning]]
 * 선형대수와 통계학으로 배우는 머신러닝 with 파이썬
 * 머신러닝을 다루는 기술 with 파이썬, 싸이킷런
 * 핸즈온 머신러닝
@@ -139,7 +139,7 @@
 
 ### 8) Deep learning
 
-* 밑바닥부터 시작하는 딥러닝 `ing`
+* 밑바닥부터 시작하는 딥러닝 `ing` [[2022-01-10-DL_scratch]]
 * Do it! 정직하게 코딩하며 배우는 딥러닝 입문
 * 파이썬 날코딩으로 알고 짜는 딥러닝
 * 케라스 창시자에게 배우는 딥러닝
@@ -150,7 +150,7 @@
 
 ### 9) Federated learning
 
-* Federated learning `ing`
+* Federated learning `ing` [[2022-01-10-FL_1]]
 * Federated learning
 * Federated learning systems
 
@@ -172,7 +172,7 @@
 
 #### 2) R
 
-* R을 이용한 데이터 처리 & 분석 실무 `ing`
+* R을 이용한 데이터 처리 & 분석 실무 `ing` [[2022-01-10-practical_R]]
 * R 프로그래밍
 * R 프로그래밍 기초 & 활용
 * R cookbook

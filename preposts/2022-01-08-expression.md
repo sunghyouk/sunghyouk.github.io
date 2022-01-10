@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Introduction to SNOMED CT Chapter 7. SNOMED CT expression 
-summary : Chapter 7. SNOMED CT expression
+title   : "Introduction to SNOMED CT Chapter 7. SNOMED CT expression"
+summary : "Chapter 7. SNOMED CT expression"
 date    : 2022-01-08 17:34:55 +0900
-updated : 2022-01-08 17:36:12 +0900
+updated : 2022-01-10 16:37:07 +0900
 tag     : 
 toc     : true
 public  : true

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 알고리즘 구현으로 배우는 선형대수 with 파이썬 
-summary : Contents 
+title   : "알고리즘 구현으로 배우는 선형대수 with 파이썬"
+summary : "Contents" 
 date    : 2022-01-08 16:50:13 +0900
-updated : 2022-01-08 16:53:58 +0900
+updated : 2022-01-10 16:13:26 +0900
 tag     : 
 toc     : true
 public  : true
