@@ -45,7 +45,7 @@
 
 #### 1) DS1: Regression
 
-* An introduction to generalized linear models `ing`
+* An introduction to generalized linear models `ing` [[2022-01-10-introduction_glm]]
 * Logistic regression
 
 #### 2) DS1: Categorical data analysis
