@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Introduction to generalized linear model Contents"
 summary : "Contents"
 date    : 2022-01-10 09:41:03 +0900
-updated : 2022-01-10 10:54:13 +0900
+updated : 2022-01-10 23:38:20 +0900
 tag     : 
 toc     : true
 public  : true
@@ -36,6 +36,8 @@ latex   : false
     * 6.7 Exercise
 * Chapter 7. Binary variables and logistic regression
     * 7.1 Probability distributions [[2022-01-10-7-1]]
+    * 7.2 Generalized linear models [[2022-01-10-7-2]]
+    * 7.3 Dose response models [[2022-01-10-7-3]]
     * 
 * Chapter 8. Nominal and ordinal logistic regression
 * Chapter 9. Poisson regression and log-linear models
