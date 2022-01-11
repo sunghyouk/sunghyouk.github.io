@@ -58,7 +58,7 @@ git push origin master
 전역으로 저장소의 최상위 디렉토리로 이동하여 `.gitignore_global`을 만들어서 모든 저장소에 적용할 수 있는 방법도 있다.
 
 ```zsh
-vi .gitignore_global
+touch .gitignore_global
 ```
 
 ```vim
