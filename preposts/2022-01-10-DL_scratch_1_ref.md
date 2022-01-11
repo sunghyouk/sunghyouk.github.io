@@ -3,7 +3,7 @@ layout  : wiki
 title   : "밑바닥부터 시작하는 딥러닝 1권 참고문헌"
 summary : "Reference"
 date    : 2022-01-10 17:50:11 +0900
-updated : 2022-01-10 17:51:19 +0900
+updated : 2022-01-11 16:37:48 +0900
 tag     : 
 toc     : true
 public  : true
@@ -36,5 +36,4 @@ latex   : false
 * 강화 학습 (Deep Q-Network): Human-level control through deep reinforcement learning. Nature 518, 7540(2015), 529-533.
 * 강화 학습 (알파고): Mastering the game of Go with deep neural networks and tree search. Nature 529, 7587(2016),
   484-489
-
 
