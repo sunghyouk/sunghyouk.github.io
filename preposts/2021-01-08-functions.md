@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Coding the matrix Chapter 1. 함수 
-summary : Functions
+title   : "Coding the matrix Chapter 1. 함수" 
+summary : "Functions"
 date    : 2022-01-08 16:47:31 +0900
-updated : 2022-01-08 16:55:04 +0900
+updated : 2022-01-17 17:38:25 +0900
 tag     : 
 toc     : true
 public  : true
@@ -61,18 +61,14 @@ $\left| S \right|$: 집합의 크기 (cardinality), 즉 집합이 포함하는 �
 
 임의의 정의역 $D$에 대해, 함수 $id_D\, : \, D\to D$를 $D$에 대한 `항등함수`라 한다.
 
-$$
-id_D(d)=d
-$$  
+$$id_D(d)=d$$  
 
 ### 1.3.5 함수의 합성
 
 주어진 두 함수 $f\, :\, A\longmapsto B$와 $g\, :\, B\longmapsto C$에 대해, $g\circ f$는 $g$와 $f$의 합성함수라 하며, 정의역은 $A$, 공역은 $C$이다.  
 이 합성 함수는 모든 $x\in A$에 대해 다음 규칙에 의해 정의된다.
 
-$$
-(g\circ f)(x) = g(f(x))
-$$
+$$(g\circ f)(x) = g(f(x))$$
 
 ### 1.3.6 함수 합성의 결합법칙
 
