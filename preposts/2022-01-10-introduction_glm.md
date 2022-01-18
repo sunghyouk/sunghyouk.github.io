@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Introduction to generalized linear model Contents"
 summary : "Contents"
 date    : 2022-01-10 09:41:03 +0900
-updated : 2022-01-10 23:38:20 +0900
+updated : 2022-01-17 23:10:17 +0900
 tag     : 
 toc     : true
 public  : true
@@ -38,7 +38,7 @@ latex   : false
     * 7.1 Probability distributions [[2022-01-10-7-1]]
     * 7.2 Generalized linear models [[2022-01-10-7-2]]
     * 7.3 Dose response models [[2022-01-10-7-3]]
-    * 
+    * 7.4 General logistic regression model [[2022-01-17-7-4]] 
 * Chapter 8. Nominal and ordinal logistic regression
 * Chapter 9. Poisson regression and log-linear models
 * Chapter 10. Survival analysis
