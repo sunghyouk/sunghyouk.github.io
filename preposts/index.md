@@ -238,7 +238,10 @@
 
 ### 1) Review Article
 
+* Systematic review of privacy-preserving distributed machine learning from federated databases in health care [[2022-01-25-review_1]]
 ### 2) Original Article
+
+* Privacy-preserving deep learning via weight transmission [[2022-01-25-article_1]]
 
 ### 3) ETC
 
