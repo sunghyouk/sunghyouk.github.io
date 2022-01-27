@@ -239,11 +239,13 @@
 ### 1) Review Article
 
 * Systematic review of privacy-preserving distributed machine learning from federated databases in health care [[2022-01-25-review_1]]
+* Adversarial interference and its mitigations in privacy-preserving collaborative machin learning [[2022-01-27-review_2]]
+* Privacy in the age of medical big data [[2022-01-26-review_3]]
 
 ### 2) Original Article
 
 * Privacy-preserving deep learning via weight transmission [[2022-01-25-article_1]]
-* Privacy in the age of medical big data [[2022-01-26-article_2]]
+* Privacy-preserving deep learning for the detection of protected health information in real-world data: comparative evaluation [[2022-01-27-article_2]]
 
 ### 3) ETC
 
