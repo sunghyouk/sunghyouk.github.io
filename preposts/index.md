@@ -151,7 +151,7 @@
 ### 9) Federated learning
 
 * Federated learning `ing` [[2022-01-10-FL_1]]
-* Federated learning
+* Federated learning: Privacy and incentive `ing` [[2022-01-31-FL_2]]
 * Federated learning systems
 
 ### 10) Programming language, Computer science

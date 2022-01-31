@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Introduction to generalized linear model Contents"
 summary : "Contents"
 date    : 2022-01-10 09:41:03 +0900
-updated : 2022-01-25 07:01:47 +0900
+updated : 2022-01-31 10:39:43 +0900
 tag     : 
 toc     : true
 public  : true
@@ -44,7 +44,7 @@ latex   : false
     * 7.7 Other diagnostics [[2022-01-24-7-7]]
     * 7.8 Examples: Senility and WAIS [[2022-01-24-7-8]]
 * Chapter 8. Nominal and ordinal logistic regression [[2022-01-25-ch_8]]
-* Chapter 9. Poisson regression and log-linear models
+* Chapter 9. Poisson regression and log-linear models [[2022-01-31-ch_9]]
 * Chapter 10. Survival analysis
 * Chapter 11. Clustered and longitudinal data
 * Chapter 12. Bayesian analysis
