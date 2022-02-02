@@ -232,7 +232,8 @@
 * 한 권으로 읽는 컴퓨터 구조와 프로그래밍
 * 리눅스 커맨드라인 완벽 입문서
 * 데이터 중심 애플리케이션 설계
-* Practical Vim `ing`
+* 손에 잡히는 Vim `ing`
+* Practical Vim `fin`
 
 ## 2) What I reviewed
 
