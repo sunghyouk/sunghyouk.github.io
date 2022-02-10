@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Grokking artificial intelligence algorithm Contents" 
 summary : "Contents"
 date    : 2022-01-07 22:27:12 +0900
-updated : 2022-02-05 21:57:55 +0900
+updated : 2022-02-10 23:25:33 +0900
 tag     : 
 toc     : true
 public  : true
@@ -17,3 +17,4 @@ latex   : false
   * Chapter 3. 지능형 검색 [[2022-01-07-informed_search]]
   * Chapter 4. 진화 알고리즘 [[2022-01-28-evolution_algorithm]]
   * Chapter 5. 고급 진화 방식 [[2022-02-05-ext_evolution_algorithm]] 
+  * Chapter 6. 군집 지능: 개미 [[2022-02-10-swarm_algorithm]]
