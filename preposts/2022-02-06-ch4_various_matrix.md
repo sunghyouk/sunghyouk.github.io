@@ -3,7 +3,7 @@ layout  : wiki
 title   : "알고리즘 구현으로 배우는 선형대수 with 파이썬 Chapter 4."
 summary : "Chapter 4. 다양한 행렬"
 date    : 2022-02-06 08:59:02 +0900
-updated : 2022-02-06 17:47:28 +0900
+updated : 2022-02-13 10:44:51 +0900
 tag     : 
 toc     : true
 public  : true
@@ -208,7 +208,6 @@ def identify(n):
 임의의 행렬에 영 행렬을 더하거나 뺀 결과는 기존 행렬과 동일  
 기존 행렬에 영행렬을 곱하면 결과는 영 행렬이 됨  
 
-
 ### 4.5.3 파이썬 실습
 
 n*p인 영 행렬을 만드는 함수 구현  
@@ -244,4 +243,89 @@ def zero_mat(n, p):
 
 ### 4.6.3 파이썬 실습
 
+```python
+def u_tri(A):
+    """
+    상 삼각 행렬 변환
+    입력값: 상 삼각 행렬로 변환하고자 하는 행렬 A
+    출력값: 행렬 A를 상 삼각 행렬로 변환시킨 행렬 utri
+    """
+    
+    n = len(A)
+    p = len(A[0])
+    utri = []
+    
+    for i in range(0, n):
+        row = []
+        for j in range(0, p):
+            if i>j:
+                row.append(0)
+            else:
+                row.append(A[i][j])
+        utri.append(row)
+    return utri
+```
 
+```python
+def l_tri(A):
+    """
+    하 삼각 행렬 변환
+    입력값: 하 삼각 행렬로 변환하고자 하는 행렬 A
+    출력값: 행렬 A를 하 삼각 행렬로 변환시킨 행렬 ltri
+    """
+    
+    n = len(A)
+    p = len(A[0])
+    ltri = []
+    
+    for i in range(0, n):
+        row = []
+        for j in range(0, p):
+            if i<j:
+                row.append(0)
+            else:
+                row.append(A[i][j])
+        ltri.append(row)
+    return ltri
+```
+
+`np.triu()`: 상 삼각 행렬  
+`np.tril()`: 하 삼각 행렬
+
+## 4.7 토플리츠 행렬
+
+### 4.7.1 토플리츠 행렬의 개념
+
+1행의 원소가 오른쪽으로 한 칸씩 이동,  
+가장 왼쪽 원소로 1행 원소에 속하지 않는 새로운 원소를 채움  
+시계열 분석 시 자주 사용됨
+
+### 4.7.2 파이썬 실습
+
+```python
+def toeplitz(a, b):
+    """
+    토플리츠 행렬 변환
+    입력값: 토플리츠 행렬로 변환하고자 하는 리스트 a, b
+    출력값: 리스트 a, b를 이용해 만든 토플리츠 행렬 A
+    """
+    
+    n1 = len(a)
+    n2 = len(b)
+    A = []
+    for i in range(0, n1):
+        row = []
+        for j in range(0, n2):
+            if i>j:
+                row.append(a[i-j])
+            else:
+                row.append(b[j-1])
+        A.append(row)
+    return A
+```
+
+### 4.7.3 scipy 실습
+
+```python
+from scipy.linalg import toeplitz
+```
