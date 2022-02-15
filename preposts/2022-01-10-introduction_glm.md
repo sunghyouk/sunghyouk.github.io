@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Introduction to generalized linear model Contents"
 summary : "Contents"
 date    : 2022-01-10 09:41:03 +0900
-updated : 2022-02-14 07:26:24 +0900
+updated : 2022-02-16 06:17:56 +0900
 tag     : 
 toc     : true
 public  : true
@@ -47,6 +47,6 @@ latex   : false
 * Chapter 9. Poisson regression and log-linear models [[2022-01-31-ch_9]]
 * Chapter 10. Survival analysis [[2022-02-08-ch_10]]
 * Chapter 11. Clustered and longitudinal data [[2022-02-14-ch_11]]
-* Chapter 12. Bayesian analysis
+* Chapter 12. Bayesian analysis [[2022-02-16-ch_12]]
 * Chapter 13. Markov chain monte carlo methods
 * Chapter 14. Example Bayesian analysis
