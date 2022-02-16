@@ -3,7 +3,7 @@ layout  : wiki
 title   : "모던 파이썬 입문 contents"
 summary : "contents"
 date    : 2022-02-08 23:23:41 +0900
-updated : 2022-02-14 23:23:23 +0900
+updated : 2022-02-16 22:58:43 +0900
 tag     : 
 toc     : true
 public  : true
@@ -17,4 +17,5 @@ latex   : false
 * 제1부 변수, 타입, 식, 문
   * Chapter 3. 파이썬 프로그래밍 언어 소개 [[2022-02-14-modern_python_ch3]]
   * Chapter 4. 변수와 식: 사물에 이름과 값 부여하기 [[2022-02-14-modern_python_ch4]]
+  * Chapter 5. 객체 타입과 코드 명령 [[2022-02-16-modern_python_ch5]]
 
