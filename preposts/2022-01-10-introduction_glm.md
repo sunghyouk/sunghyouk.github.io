@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Introduction to generalized linear model Contents"
 summary : "Contents"
 date    : 2022-01-10 09:41:03 +0900
-updated : 2022-02-21 06:11:39 +0900
+updated : 2022-02-21 13:16:57 +0900
 tag     : 
 toc     : true
 public  : true
@@ -49,4 +49,4 @@ latex   : false
 * Chapter 11. Clustered and longitudinal data [[2022-02-14-ch_11]]
 * Chapter 12. Bayesian analysis [[2022-02-16-ch_12]]
 * Chapter 13. Markov chain monte carlo methods [[2022-02-21-ch_13]]
-* Chapter 14. Example Bayesian analysis
+* Chapter 14. Example Bayesian analysis [[2022-02-21-ch_14]]
