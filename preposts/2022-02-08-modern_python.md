@@ -3,7 +3,7 @@ layout  : wiki
 title   : "모던 파이썬 입문 contents"
 summary : "contents"
 date    : 2022-02-08 23:23:41 +0900
-updated : 2022-02-22 23:23:39 +0900
+updated : 2022-02-23 23:13:27 +0900
 tag     : 
 toc     : true
 public  : true
@@ -22,4 +22,6 @@ latex   : false
 * 제2부 문자열, 튜플, 사용자 상호작용
   * Chapter 7. 문자열 객체 소개: 문자의 순서열 [[2022-02-22-modern_python_ch7]]
   * Chapter 8. 고급 문자열 연산 [[2022-02-22-modern_python_ch8]]
+  * Chapter 9. 간단한 오류 메시지들 [[2022-02-23-modern_python_ch9]]
+  * Chapter 10. 튜플 객체: 여러 종류의 객체를 모아둔 시퀀스 [[2022-02-23-modern_python_ch10]]
 
