@@ -3,7 +3,7 @@ layout  : wiki
 title   : "Grokking artificial intelligence algorithm Contents" 
 summary : "Contents"
 date    : 2022-01-07 22:27:12 +0900
-updated : 2022-02-19 22:19:51 +0900
+updated : 2022-02-24 10:13:56 +0900
 tag     : 
 toc     : true
 public  : true
@@ -21,3 +21,4 @@ latex   : false
   * Chapter 7. 군집 지능: 입자 [[2022-02-12-particle_algorithm]]
   * Chapter 8. 머신러닝 [[2022-02-12-ML]]
   * Chapter 9. 인공 신경망 [[2022-02-19-deep_learning]]
+  * Chapter 10. Q-러닝을 통한 강화학습 [[2022-02-24-reinforcement_learning]]

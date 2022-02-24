@@ -45,7 +45,7 @@
 
 #### 1) DS1: Regression
 
-* An introduction to generalized linear models `ing` [[2022-01-10-introduction_glm]]
+* An introduction to generalized linear models `fin` [[2022-01-10-introduction_glm]]
 * Logistic regression
 
 #### 2) DS1: Categorical data analysis
@@ -150,7 +150,7 @@
 
 ### 9) Federated learning
 
-* Federated learning `ing` [[2022-01-10-FL_1]]
+* Federated learning `fin` [[2022-01-10-FL_1]]
 * Federated learning: Privacy and incentive `ing` [[2022-01-31-FL_2]]
 * Federated learning systems
 
@@ -163,7 +163,7 @@
 * 파이썬 데이터 사이언스 핸드북 `fin`
 * 파이썬과 Jupyter notebook `fin`
 * 혼자 공부하는 파이썬 `fin` [[2022-01-08-python_self_study]]
-* 처음 시작하는 파이썬 `ing`
+* 처음 시작하는 파이썬 `fin`
 * 모던 파이썬 입문 `ing` [[2022-02-08-modern_python]]
 * 파이썬 스킬업
 * 뚝딱뚝딱 파이썬 자동화
@@ -232,7 +232,7 @@
 * 한 권으로 읽는 컴퓨터 구조와 프로그래밍
 * 리눅스 커맨드라인 완벽 입문서
 * 데이터 중심 애플리케이션 설계
-* 손에 잡히는 Vim `ing`
+* 손에 잡히는 Vim `fin`
 * Practical Vim `fin`
 
 ## 2) What I reviewed
