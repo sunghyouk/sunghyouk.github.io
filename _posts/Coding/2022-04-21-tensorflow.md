@@ -15,7 +15,7 @@ last_modified_at: 2022-04-21
 
 ## 1. 가상환경 만들기 - 시작은 아나콘다 공식 홈페이지에서
 
-https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/  
+<https://docs.anaconda.com/anaconda/user-guide/tasks/tensorflow/>  
 
 ```bash
 conda create -n tf tensorflow
@@ -27,8 +27,9 @@ conda activate tf
 ## 2. 파이썬과 tensorflow의 버전 확인하기
 
 ```python
+python
 import tensorflow as tf
-tf.__version__
+tf.__version__  # 버전 확인
 exit()
 ```
 
@@ -39,9 +40,10 @@ conda install jupyter notebook
 conda install numpy  # tensorflow와 같이 설치됨
 conda install pandas
 conda install seaborn
-conda install matplotlib  # jupyter notebook 설치 시 같이 설치됨
+conda install matplotlib  # seaborn 설치 시 같이 설치됨
 conda install keras
 conda install scikit-learn
+conda install -c conda-forge tensorflow-datasets
 conda install tqdm
 ```
 
