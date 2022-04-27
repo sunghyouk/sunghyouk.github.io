@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-04-21
-last_modified_at: 2022-04-21
+last_modified_at: 2022-04-27
 
 ---
 
@@ -27,7 +27,7 @@ conda activate tf
 ## 2. 파이썬과 tensorflow의 버전 확인하기
 
 ```python
-python
+# python을 실행하고,
 import tensorflow as tf
 tf.__version__  # 버전 확인
 exit()
@@ -43,8 +43,9 @@ conda install seaborn
 conda install matplotlib  # seaborn 설치 시 같이 설치됨
 conda install keras
 conda install scikit-learn
-conda install -c conda-forge tensorflow-datasets
+# conda install -c conda-forge tensorflow-datasets  # conda-forge의 library는 예전 것이라 에러 메시지가 나와서 변경
 conda install tqdm
+pip install --upgrade tensorflow-datasets
 ```
 
 잘 된다.  
