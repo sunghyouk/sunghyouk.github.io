@@ -2,12 +2,12 @@
 title:  "파이썬 스킬업"
 excerpt: "book review"
 
-categories: Python
+categories: Blog
 
 tags: [Programming, Python, Review]
 
 date: 2021-10-26
-last_modified_at: 2021-10-26
+last_modified_at: 2022-04-27
 
 toc: true
 toc_sticky: true
