@@ -30,7 +30,7 @@ github에서 시키는 대로 그리고 인터넷에 공개된 여러 방법을 
 현재 이 사진을 넣는 것도 이 책에서 공부한 것을 바탕으로 삽입하고 있습니다.  
 물론 모든 것이 이 책에 있는 것은 아니고, github 블로그에 사진 올리는 방법, `markdown`에서 이미지 크기 조절하는 방법 등을 검색하고 넣은 것이지요.  
 
-<img src="https://user-images.githubusercontent.com/89435559/168404710-879334ea-3bac-407a-bc9a-68ca6bb46e05.jpeg" width="40%" height="30%" title="HTML" alt="HTML"></img>  
+<img src="https://user-images.githubusercontent.com/89435559/168404710-879334ea-3bac-407a-bc9a-68ca6bb46e05.jpeg" width="40%" height="30%" title="HTML" alt="HTML">  
 
 다음, 파트는 `CSS`, `HTML`의 태그는 20년 전 집에 컴퓨터를 처음 펜티엄으로 사면서 접해 보았기에(!) 큰 부담 없이 나아갈 수 있었습니다만 문제는 `CSS`, `CSS`는 처음이었습니다.  
 
@@ -40,7 +40,7 @@ github에서 시키는 대로 그리고 인터넷에 공개된 여러 방법을 
 
 뒤에 어떤 내용이 나올 지 예상을 할 수 있어서 예습도 되고 뒤의 내용이 더 잘 이해되는 효과가 있습니다. 사실 모르겠다고 해도 뒤에 자세히 그림과 코드로 다루면서 이해가 되니 큰 걱정 안 해도 됩니다.  
 
-<img src="https://user-images.githubusercontent.com/89435559/168405625-9d5e6401-783c-41b7-ae17-53bf777043f0.jpeg" width="40%" height="30%" title="CSS" alt="CSS"></img>  
+<img src="https://user-images.githubusercontent.com/89435559/168405625-9d5e6401-783c-41b7-ae17-53bf777043f0.jpeg" width="40%" height="30%" title="CSS" alt="CSS">  
 
 ## 3. 읽으면서 정리하기
 
@@ -49,7 +49,7 @@ github에서 시키는 대로 그리고 인터넷에 공개된 여러 방법을 
 나도 "이거 분명히 앞에서 봤는데 왜 기억이 안나지?"라면서 투덜투덜 대면서 앞뒤 페이지를 계속 왔다갔다 하면서 만들어 봤습니다.  
 그리고 셀프체크의 오른쪽 페이지에 제목은 안 나오지만 **마무리** 파트입니다.  
 여기는 주로 표로 제시 되어 있는데 앞에서 나왔던 세부 주제들의 총 집합입니다. 앞의 내용을 충분히 읽고 이해 했으면 속성만 봐도 얼추 기억이 날 것입니다.  
-<img src="https://user-images.githubusercontent.com/89435559/168405849-652d1b00-88ec-4cac-96a4-c769101f9cec.jpeg" width="40%" height="30%" title="CSS" alt="CSS"></img>  
+<img src="https://user-images.githubusercontent.com/89435559/168405849-652d1b00-88ec-4cac-96a4-c769101f9cec.jpeg" width="40%" height="30%" title="CSS" alt="CSS">  
 
 `Javascript`또한 거의 문외한입니다.  
 현재 자바스크립트 파트를 읽고 있으며, 파이썬과 비슷한 것 같은데 어렵다(?)는 기분으로 보고 있습니다. 이건 언제 끝날 지 모르겠습니다...  
@@ -58,7 +58,7 @@ github에서 시키는 대로 그리고 인터넷에 공개된 여러 방법을 
 
 공부를 할 때 특히나 아무것도 모를 때, 주변에 알려 주는 사람이 없으면 헤매게 됩니다.  
 그래서 이 책은 여러 장치를 두었는데, 가장 좋다고 생각한 것은  
-**수코딩 유튜브 채널** <https://www.youtube.com/c/>수코딩,  
+**수코딩 유튜브 채널** <https://www.youtube.com/c/수코딩>,  
 **온라인 실습 사이트** <http://www.sucoding.kr>, 그 중 유튜브 채널인 것 같습니다.  
 
 책의 `CSS` 파트를 보면서 잘 이해 안 가는 내용이나, 생소한 내용 위주로 보았는데, 설명도 좋고, 분량도 적절하였습니다.  
