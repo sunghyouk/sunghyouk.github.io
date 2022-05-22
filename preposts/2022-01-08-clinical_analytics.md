@@ -11,7 +11,7 @@ parent  : [[2022-01-08-snomed]]
 latex   : false
 ---
 
- ## 8.1 Introduction
+## 8.1 Introduction
 
 *data rich but information poor*  
 이것으로 끝나면 안된다. 어디서, 얼마나 정확히 SNOMED CT가 임상 분석 패러다임 내에 잘 맞는지 살펴 보자
